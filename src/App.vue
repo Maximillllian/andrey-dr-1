@@ -125,7 +125,7 @@ main {
     padding: 50px;
 
     font-family: 'Lato', sans-serif;
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: snow;
 
     display: flex;
@@ -147,7 +147,7 @@ h1 {
 .box {
     position: absolute;
     bottom: 0;
-    width: 27vw;
+    width: 18vw;
     height: 10%;
     background-color: #7f5af0;
     z-index: -1;
@@ -160,6 +160,7 @@ h1 {
         'hello animated-text'
         'click-me click-me';
     gap: 16px;
+    width: 100%;
 }
 
 .hello {
