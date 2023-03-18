@@ -123,7 +123,7 @@ export default {
             });
 
             const finalWordsTl = gsap.timeline({ delay: 0.5, yoyo: false });
-            finalWordsTl.to(text, { text: 'ты должен кликнуть.', duration: 1 });
+            finalWordsTl.to(text, { text: 'ты должен кликнуть', duration: 1 });
             masterTl.add(finalWordsTl);
 
             const showButtonTl = gsap.timeline();
